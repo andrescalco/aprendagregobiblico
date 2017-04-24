@@ -1,7 +1,7 @@
 'use strict';
 angular
     .module('starter')
-    .run(function($ionicPlatform){
+    .run(function($ionicPlatform,$compileProvider,$logProvider,$ionicConfigProvider){
 
     	$ionicPlatform.ready(function() {
         	if (window.StatusBar) {
@@ -11,5 +11,11 @@ angular
         	}
     		
     	});
+
+        $compileProvider.debugInfoEnabled(false);
+        $compileProvider.commentDirectivesEnabled(false);
+        $compileProvider.cssClassDirectivesEnabled(false);
+        $logProvider.debugEnabled(false);
+        $ionicConfigProvider.scrolling.jsScrolling(false);
 
     });

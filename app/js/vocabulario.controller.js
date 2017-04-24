@@ -4,32 +4,45 @@
         .module('starter')
         .controller('VocabularioController',VocabularioController);
 
-    function VocabularioController($scope,$ionicSlideBoxDelegate,Vocabulario){
+    function VocabularioController($ionicSlideBoxDelegate,Vocabulario){
+        
+        var vm = this;
 
-        $scope.vocabulario = Vocabulario;
-        $scope.slideIndex = 0;
+        vm.vocabulario = Vocabulario;
+        vm.slideIndex = 0;
 
-        $scope.first = function() {
-            $ionicSlideBoxDelegate.slide(0);
+        vm.pages = 114;
+        vm.active = 0;
+
+        vm.first = function() {
+            vm.active = 0;
         };
 
-        $scope.next = function() {
-            $ionicSlideBoxDelegate.next();
-            $scope.slideIndex = $scope.slideIndex;
+        vm.next = function() {
+            if ( vm.active < (vm.pages - 1) ) {
+                vm.active += 1;
+            } else if (vm.active == vm.pages - 1) {
+                vm.active = vm.pages - 1;
+            }
         };
 
-        $scope.previous = function() {
-            $ionicSlideBoxDelegate.previous();
-            $scope.slideIndex = $scope.slideIndex;
+        vm.previous = function() {
+            if ( vm.active >= 1 ) {
+                vm.active -= 1;
+            } else if (vm.active == 0) {
+                return false;
+            }
         };
 
-        $scope.slideChanged = function(index) {
-            $scope.slideIndex = index;
-            $ionicSlideBoxDelegate.slide(index);
+        vm.slideChanged = function(index) {
+            vm.active = parseInt(index);
+            
         };
+
+
 
         
-        // Appodeal.show(Appodeal.INTERSTITIAL);
+        Appodeal.show(Appodeal.INTERSTITIAL);
         
 
     }
