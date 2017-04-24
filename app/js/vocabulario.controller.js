@@ -42,7 +42,6 @@
 
 
         
-        Appodeal.show(Appodeal.INTERSTITIAL);
         
 
     }

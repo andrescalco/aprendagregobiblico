@@ -163,7 +163,6 @@
         $scope.randomLetter();
 
         
-        Appodeal.show(Appodeal.SKIPPABLE_VIDEO);
         
 
     }

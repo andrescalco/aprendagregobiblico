@@ -25,24 +25,7 @@ angular
         			StatusBar.backgroundColorByHexString("#A71C1C");
         		}
         	}
-
-            
-        	var appKey = "7b4be552be54fac608ad197897e66de178b6048b6a59d507";
-
-
-        	Appodeal.confirm(Appodeal.SKIPPABLE_VIDEO);
-        	Appodeal.setLogging(true);
-
-        	Appodeal.initialize(appKey, Appodeal.INTERSTITIAL | Appodeal.SKIPPABLE_VIDEO | Appodeal.BANNER);
-
-        	Appodeal.enableInterstitialCallbacks(true);
-        	Appodeal.enableSkippableVideoCallbacks(true);
-        	Appodeal.enableBannerCallbacks(true);
-
-        	Appodeal.show(Appodeal.BANNER);
-
-            
-    		
+   		
     	});
 
     });

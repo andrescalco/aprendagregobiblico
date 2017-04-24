@@ -25,7 +25,6 @@
         };
 
         
-        Appodeal.show(Appodeal.BANNER);
         
 
     }
