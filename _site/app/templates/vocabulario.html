@@ -1,6 +1,6 @@
 <ion-view view-title="Vocabulario">
-  <ion-content>
-	<div class="content-view" ng-controller="VocabularioController">
+  <ion-content ng-controller="VocabularioController">
+	<div class="content-view">
 	    <ion-slide-box on-slide-changed="slideChanged($index)" show-pager>
 	        <ion-slide ng-repeat="item in vocabulario">
 	          <div class="list card">
