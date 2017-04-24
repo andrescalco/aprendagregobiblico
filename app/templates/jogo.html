@@ -1,0 +1,21 @@
+<ion-view view-title="Qual é a letra?">
+	<ion-content>
+		<div class="content-view">
+			<div ng-controller="JogoLetraController as vm">
+	          <div class="list card">
+	            <div class="item item-image">
+	                <img src="{{ vm.alfabeto.letra }}">
+	            </div>
+	          </div>
+	          	<div class="list">
+					<label class="item-input item-floating-label">
+						<span class="input-label">Resposta</span>
+						<input class="input-resposta" type="text" placeholder="Resposta" ng-model="vm.resposta.input">
+					</label>
+					
+					<button ng-click="vm.checkResposta()" class="button button-block button-positive">Enviar</button>
+	          	</div>
+			</div>
+		</div>
+	</ion-content>
+</ion-view>
