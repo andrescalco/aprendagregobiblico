@@ -24,8 +24,9 @@
             $scope.slideIndex = index;
         };
 
-        
-        
+        if (showAD) {
+            Appodeal.show(Appodeal.BANNER);
+        }
 
     }
 
