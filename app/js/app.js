@@ -21,7 +21,7 @@ cordova build --release android && cd /var/sites/alfabeto/platforms/android/buil
 
 */
 
-var showAD = true;
+var showAD = false;
 
 angular
 	.module('starter', ['ionic','ionic-material'])
