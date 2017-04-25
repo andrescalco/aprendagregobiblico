@@ -262,7 +262,6 @@ img {
 .greek-word span {
     font-family: "Times New Roman", Georgia, Serif !important;
     display: block;
-    font-family: serif;
     font-size: 40px;
     text-align: center;
     padding: 25px 0;
@@ -321,4 +320,13 @@ td.greek-word {
 
 .content-view {
     margin: 20px 10px 100px;
+}
+
+/* SLIDER VOCABULARIO */
+.list-vocabulario {
+    display: none;
+}
+
+.list-vocabulario:first-child {
+    display: block;
 }

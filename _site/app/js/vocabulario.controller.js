@@ -4,34 +4,16 @@
         .module('starter')
         .controller('VocabularioController',VocabularioController);
 
-    function VocabularioController($scope,$ionicSlideBoxDelegate,Vocabulario){
-
-        $scope.vocabulario = Vocabulario;
-        $scope.slideIndex = 0;
-
-        $scope.first = function() {
-            $ionicSlideBoxDelegate.slide(0);
-        };
-
-        $scope.next = function() {
-            $ionicSlideBoxDelegate.next();
-            $scope.slideIndex = $scope.slideIndex;
-        };
-
-        $scope.previous = function() {
-            $ionicSlideBoxDelegate.previous();
-            $scope.slideIndex = $scope.slideIndex;
-        };
-
-        $scope.slideChanged = function(index) {
-            $scope.slideIndex = index;
-            $ionicSlideBoxDelegate.slide(index);
-        };
-
+    function VocabularioController($ionicSlideBoxDelegate,Vocabulario){
         
-        // Appodeal.show(Appodeal.INTERSTITIAL);
-        
+        var vm = this;
 
+        vm.vocabulario = Vocabulario;
+        
+        if (showAD) {
+            Appodeal.show(Appodeal.INTERSTITIAL);
+        }
+        
     }
 
 // })();

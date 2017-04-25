@@ -162,9 +162,9 @@
         // Inicia o random, para pegar uma letra
         $scope.randomLetter();
 
-        
-        // Appodeal.show(Appodeal.SKIPPABLE_VIDEO);
-        
+        if (showAD) {
+            Appodeal.show(Appodeal.SKIPPABLE_VIDEO);
+        }
 
     }
 
