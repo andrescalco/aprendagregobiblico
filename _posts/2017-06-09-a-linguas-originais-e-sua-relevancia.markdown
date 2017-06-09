@@ -26,9 +26,9 @@ header-img: "img/greek/linguas-originais-e-sua-relevancia.jpg"
 <hr>
 
 <div>
-<p><a id="ftnt1" href="#ftnt_ref1">[1]</a><span">&nbsp;Conforme a NAS28: &lt;http://
+<p><a id="ftnt1" href="#ftnt_ref1">[1]</a><span>&nbsp;Conforme a NAS28: &lt;http://
 www.nestle-aland.com/en/read-na28-online/text/bibeltext/lesen/stelle/75/&gt;</span></p>
 </div>
 <div>
-<p><a id="ftnt2" href="#ftnt_ref2">[2]</a><span">&nbsp;Conforme HELPS Word-studies: &lt;http://biblehub.com/str/greek/1401.htm&gt;</span></p>
+<p><a id="ftnt2" href="#ftnt_ref2">[2]</a><span>&nbsp;Conforme HELPS Word-studies: &lt;http://biblehub.com/str/greek/1401.htm&gt;</span></p>
 </div>
