@@ -1,9 +1,10 @@
 ---
 layout:     post
-title:      "The dreams of yesterday are the hopes of today and the reality of tomorrow."
-date:       2014-07-01 12:00:00
-author:     "Start Bootstrap"
-header-img: "img/post-bg-02.jpg"
+title:      "Seja Bem Vindo"
+subtitle:   "Este é o Aprenda Grego Bíblico. Uma nova plataforma para lhe auxiliar no aprendizado do Grego Bíblico."
+date:       2017-06-09 14:30:00
+author:     "André Scalco"
+header-img: "img/greek/seja-bem-vindo-aprenda-grego-bilbico.jpg"
 ---
 
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>

@@ -1,15 +1,14 @@
 # Site settings
 title: Aprenda Grego Bíblico
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-copyright_name: Your/Project/Corporate Name
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: andre@andrescalco.com
+copyright_name: "Aprenda Grego Bíblico"
+description: "Aprenda Grego Bíblico é uma nova plataforma para lhe auxiliar no aprendizado do Grego Koinê"
 baseurl: ""
 url: "http://aprendagregobiblico.com.br"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+twitter_username: andre_scalco
+facebook_username:  aprendagregobiblico
+email_username:  andre@andrescalco.com
 
 # Google Analytics
 google_tracking_id: UA-86274710-1
