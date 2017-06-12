@@ -1,0 +1,28 @@
+---
+layout: page
+title: "Todos os posts"
+description: "Procurando algo? Talvez ache aqui. Talvez."
+header-img: "img/contact-bg.jpg"
+order: 2
+---
+
+
+
+{% for post in site.posts %}    
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3 class="post-title">
+            {{ post.title }}
+        </h3>
+        {% if post.subtitle %}
+        <h4 class="post-subtitle">
+            {{ post.subtitle }}
+        </h4>
+        {% endif %}
+    </a>
+    <p class="post-meta">
+        Post por {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} - {{ post.date | date: "%d/%m/%Y" }}
+    </p>
+</div>
+<hr>
+{% endfor %}
