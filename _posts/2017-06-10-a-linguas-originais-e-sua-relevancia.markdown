@@ -5,6 +5,7 @@ subtitle:   "ou sobre como Deus tem um grande senso de humor"
 date:       2017-06-10 14:30:00
 author:     "André Scalco"
 header-img: "img/greek/linguas-originais-e-sua-relevancia.jpg"
+description: "Perferendis architecto laboriosam recusandae, repellendus dicta eaque saepe consequuntur amet quo nisi nulla deleniti eligendi, possimus quibusdam fugiat hic."
 ---
 
 <span class="caption text-muted">

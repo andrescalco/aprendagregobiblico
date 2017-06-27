@@ -5,6 +5,7 @@ subtitle:   "Este é o Aprenda Grego Bíblico. Uma nova plataforma para lhe auxi
 date:       2017-06-09 14:30:00
 author:     "André Scalco"
 header-img: "img/greek/seja-bem-vindo-aprenda-grego-bilbico.jpg"
+description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ab."
 ---
 
 <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>
