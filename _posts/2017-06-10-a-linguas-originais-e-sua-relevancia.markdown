@@ -7,6 +7,7 @@ author:     "André Scalco"
 header-img: "img/greek/linguas-originais-e-sua-relevancia.jpg"
 description: "Perferendis architecto laboriosam recusandae, repellendus dicta eaque saepe consequuntur amet quo nisi nulla deleniti eligendi, possimus quibusdam fugiat hic."
 category: Blog
+redirect_from: 2017/06/10/a-linguas-originais-e-sua-relevancia/
 ---
 
 <span class="caption text-muted">
