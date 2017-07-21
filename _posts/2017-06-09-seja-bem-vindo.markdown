@@ -6,6 +6,9 @@ date:       2017-06-09 14:30:00
 author:     "André Scalco"
 header-img: "img/greek/seja-bem-vindo-aprenda-grego-bilbico.jpg"
 description: "Seja bem vindo ao Aprenda Grego Bíblico. Este é um site que te ajuda a aprender o Grego Bíblico."
+permalink: /blog/seja-bem-vindo-ao-aprenda-grego-biblico/
+category: Blog
+redirect_from: 2017/06/09/seja-bem-vindo/
 ---
 
 

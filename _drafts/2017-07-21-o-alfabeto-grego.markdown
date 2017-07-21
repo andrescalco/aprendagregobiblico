@@ -1,12 +1,14 @@
 ---
 layout:     post
-title:      "As línguas originais e a sua relevância"
-subtitle:   "ou sobre como Deus tem um grande senso de humor"
-date:       2017-06-10 14:30:00
+title:      "Aula 01: O Alfabeto Grego"
+subtitle:   "Dê os seus primeiros passos para aprender grego bíblico"
+date:       2017-07-21 14:30:00
 author:     "André Scalco"
-header-img: "img/greek/linguas-originais-e-sua-relevancia.jpg"
-description: "Perferendis architecto laboriosam recusandae, repellendus dicta eaque saepe consequuntur amet quo nisi nulla deleniti eligendi, possimus quibusdam fugiat hic."
-category: Blog
+header-img: "img/greek/alfabeto-grego-na-pedra.jpg"
+description: "Conheça o alfabeto grego e dê seus primeiros passos para aprender grego bíblico"
+categories: 
+- Aulas
+- Grego Biblico
 ---
 
 <span class="caption text-muted">
